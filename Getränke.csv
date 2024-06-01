@@ -7,7 +7,7 @@ San Pellegrino,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5
 Evian,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Evian.png,Evian ist ein französisches Mineralwasser.,4
 Lipton Ice Tea,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Lipton%20Ice%20Tea.png,"Lipton Ice Tea ist ein Eisteegetränk, hergestellt von Lipton.",3
 Coca-Cola,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Coca-Cola.png,"Coca-Cola ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von Coca-Cola.",5
-Pepsi,https://example.com/pepsi.jpg,"Pepsi ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von PepsiCo.",4
+Pepsi,https://github.com/ayya111/tastevoyage/blob/2f3c42307ab6de32530653dda65e4c434e5ae207/produkt_bilder/Pepsi.png,"Pepsi ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von PepsiCo.",4
 Fanta,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Fanta.png,"Fanta ist ein kohlensäurehaltiges Orangengetränk, hergestellt von Coca-Cola.",3
 Sprite,https://github.com/ayya111/tastevoyage/blob/773e611fc2ac996680f5f3e57a03143e78fb5cc9/produkt_bilder/Sprite.png,"Sprite ist ein kohlensäurehaltiges Zitronen-Limettengetränk, hergestellt von Coca-Cola.",4
 Mountain Dew,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Mountain%20Dew.png,"Mountain Dew ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von PepsiCo.",5
@@ -32,10 +32,9 @@ Rugenbräu,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b729
 Calanda Bier,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Calanda%20Bier.png,"Calanda Bier ist ein Bier, hergestellt von Calanda.",4
 Chopfab Bier,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Chopfab%20Bier.png,Chopfab Bier ist ein Schweizer Craft-Bier.,5
 Bündner Bier,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Bu%CC%88ndner%20Bier.png,Bündner Bier ist ein regionales Bier aus Graubünden.,4
-Quöllfrisch,https://example.com/quoellfrisch.jpg,"Quöllfrisch ist ein Bier, hergestellt von der Brauerei Locher.",3
+Quöllfrisch,https://github.com/ayya111/tastevoyage/blob/2f3c42307ab6de32530653dda65e4c434e5ae207/produkt_bilder/Quo%CC%88llfrisch.png,"Quöllfrisch ist ein Bier, hergestellt von der Brauerei Locher.",3
 Möhl Saft,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Mo%CC%88hl%20Saft.png,"Möhl Saft ist ein Schweizer Fruchtsaft, hergestellt von Möhl.",5
 Michel Fruchtsaft,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Michel%20Fruchtsaft.png,"Michel Fruchtsaft ist ein Schweizer Fruchtsaft, hergestellt von Michel.",4
-Bionade,https://example.com/bionade.jpg,"Bionade ist ein deutsches Erfrischungsgetränk, hergestellt von Bionade GmbH.",3
 Ramseier Suure Most,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Ramseier%20Suure%20Most.png,"Ramseier Suure Most ist ein Schweizer Apfelwein, hergestellt von Ramseier.",4
 Rivella Grün,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Rivella%20Gru%CC%88n.png,"Rivella Grün ist eine Variante des Schweizer Rivella, hergestellt von Rivella.",5
 Lipz,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Lipz.png,"Lipz ist ein kohlensäurehaltiges Erfrischungsgetränk, hergestellt von Lipz.",3
