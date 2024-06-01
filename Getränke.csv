@@ -20,19 +20,14 @@ Volvic,https://example.com/volvic.jpg,Volvic ist ein französisches Mineralwasse
 Nestea,https://example.com/nestea.jpg,"Nestea ist ein Eisteegetränk, erhältlich von Nestlé.",3
 Rivella Rot,https://example.com/rivella_rot.jpg,Rivella Rot ist das originale Schweizer Rivella.,5
 Henniez,https://example.com/henniez.jpg,"Henniez ist ein Schweizer Mineralwasser, abgefüllt von Henniez.",4
-Goba Cola,https://example.com/goba_cola.jpg,Goba Cola ist ein Schweizer Cola-Getränk.,3
 Ricola Kräutertee,https://example.com/ricola_kraeutertee.jpg,"Ricola Kräutertee ist ein Schweizer Kräutertee, hergestellt von Ricola.",4
 Valser Wasser,https://example.com/valser_wasser.jpg,"Valser Wasser ist ein Schweizer Mineralwasser, abgefüllt von Valser.",4
 Migros Ice Tea,https://example.com/migros_ice_tea.jpg,"Migros Ice Tea ist ein Eisteegetränk, erhältlich bei Migros.",3
-Coci,https://example.com/coci.jpg,"Coci ist ein kohlensäurehaltiges Erfrischungsgetränk, hergestellt von Coci.",4
 Sinalco,https://example.com/sinalco.jpg,"Sinalco ist ein kohlensäurehaltiges Erfrischungsgetränk, hergestellt von Sinalco.",3
-Volvic,https://example.com/volvic.jpg,"Volvic ist ein französisches Mineralwasser, abgefüllt von Volvic.",4
 Mezzo Mix,https://example.com/mezzo_mix.jpg,"Mezzo Mix ist eine Mischung aus Cola und Orangenlimonade, hergestellt von Coca-Cola.",3
 Club Mate,https://example.com/club_mate.jpg,"Club Mate ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von Brauerei Loscher.",4
 Almdudler,https://example.com/almdudler.jpg,Almdudler ist ein österreichisches Kräuterlimonadegetränk.,5
-Züri Wasser,https://example.com/zueri_wasser.jpg,Züri Wasser ist ein regionales Mineralwasser aus Zürich.,4
 Swiss Mountain Spring Ginger Beer,https://example.com/swiss_mountain_spring_ginger_beer.jpg,Swiss Mountain Spring Ginger Beer ist ein Schweizer Ingwergetränk.,5
-Bischofszell Apfelwein,https://example.com/bischofszell_apfelwein.jpg,Bischofszell Apfelwein ist ein Schweizer Apfelwein.,4
 Rugenbräu,https://example.com/rugenbraeu.jpg,"Rugenbräu ist ein Bier, hergestellt von der Rugenbräu AG.",3
 Calanda Bier,https://example.com/calanda_bier.jpg,"Calanda Bier ist ein Bier, hergestellt von Calanda.",4
 Chopfab Bier,https://example.com/chopfab_bier.jpg,Chopfab Bier ist ein Schweizer Craft-Bier.,5
@@ -47,6 +42,4 @@ Lipz,https://example.com/lipz.jpg,"Lipz ist ein kohlensäurehaltiges Erfrischung
 Actimel,https://example.com/actimel.jpg,"Actimel ist ein probiotisches Getränk, hergestellt von Danone.",4
 Emmi Caffè Latte,https://example.com/emmi_caffe_latte.jpg,"Emmi Caffè Latte ist ein Schweizer Kaffeegetränk, hergestellt von Emmi.",5
 Sankt Galler Schützengarten Bier,https://example.com/sankt_galler_schuetzengarten_bier.jpg,"Sankt Galler Schützengarten Bier ist ein Bier, hergestellt von Schützengarten.",4
-Chasseral,https://example.com/chasseral.jpg,"Chasseral ist ein Schweizer Mineralwasser, abgefüllt von Chasseral.",3
-Thurella,https://example.com/thurella.jpg,"Thurella ist ein Schweizer Fruchtsaftgetränk, hergestellt von Thurella.",4
 Calanda Radler,https://example.com/calanda_radler.jpg,"Calanda Radler ist ein Biermischgetränk, hergestellt von Calanda.",5
