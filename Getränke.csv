@@ -1,4 +1,4 @@
-Name,Image URL,Description,Rating,Category
+Name,Image UName,Image URL,Description,Rating,Category
 Ovomaltine,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Ovomaltine.png,"Malzgetränk mit schokoladigem Geschmack, beliebt als Energielieferant.",4,Other
 Rivella Blau,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Rivella%20Blau.png,"Leichte Variante des Schweizer Rivella, erfrischend und weniger süß.",3,Soft Drink
 Orangina,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Orangina.png,"Kohlensäurehaltiges Orangengetränk, spritzig und fruchtig, international beliebt.",4,Soft Drink
@@ -31,7 +31,7 @@ Rugenbräu,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bi
 Calanda Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Calanda%20Bier.png,"Schweizer Bier, erfrischend und hopfig, in Graubünden beliebt.",4,Alcoholic
 Chopfab Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Chopfab%20Bier.png,"Schweizer Craft-Bier, reichhaltig und aromatisch, bei Bierliebhabern bekannt.",5,Alcoholic
 Bündner Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Bu%CC%88ndner%20Bier.png,"Regionalbier aus Graubünden, würzig und charaktervoll.",4,Alcoholic
-Quöllfrisch,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Quo%CC%88llfrisch.png,"Schweizer Bier, frisch und leicht, in Appenzell bekannt.",3,Alcoholic
+Quöllfrissch,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Quo%CC%88llfrisch.png,"Schweizer Bier, frisch und leicht, in Appenzell bekannt.",3,Alcoholic
 Möhl Saft,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Mo%CC%88hl%20Saft.png,"Schweizer Fruchtsaft, natürlich und süß, beliebt bei Familien.",5,Juice
 Michel Fruchtsaft,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Michel%20Fruchtsaft.png,"Schweizer Fruchtsaft, fruchtig und erfrischend, bekannt für Qualität.",4,Juice
 Ramseier Suure Most,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Ramseier%20Suure%20Most.png,"Schweizer Apfelwein, sauer und erfrischend, traditionell geschätzt.",4,Alcoholic
@@ -41,6 +41,6 @@ Actimel,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilde
 Emmi Caffè Latte,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Emmi%20Caffe%CC%80%20Latte.png,"Schweizer Kaffeegetränk, cremig und stark, beliebt bei Pendlern.",5,Coffee
 Sankt Galler Schützengarten Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Sankt%20Galler%20Schu%CC%88tzengarten%20Bier.png,"Schweizer Bier, traditionell und vollmundig, bekannt in St. Gallen.",4,Alcoholic
 Calanda Radler,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Calanda%20Radler.png,"Biermischgetränk, leicht und fruchtig, perfekt für den Sommer.",5,Alcoholic
-Starbucks House Blend,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Starbucks_House_Blend.png,"Aromatischer Kaffee mit ausgewogenem Geschmack und nussigen Noten, beliebt für den täglichen Genuss.",5,Coffee
-Lavazza Espresso,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Lavazza_Crema_e_Gusto.png,"Intensiver italienischer Espresso, vollmundig und kräftig, ideal für einen schnellen Koffeinschub.",4,Coffee
-Nespresso Ristretto,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Nespresso.png,"Starker und vollmundiger Kaffee, perfekt für kurze, intensive Genussmomente, beliebt bei Kaffeekennern.",5,Coffee
+Starbucks House Blend,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Starbucks%20House%20Blend.png,"Aromatischer Kaffee mit ausgewogenem Geschmack und nussigen Noten, beliebt für den täglichen Genuss.",5,Coffee
+Lavazza Espresso,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Lavazza%20Espresso.png,"Intensiver italienischer Espresso, vollmundig und kräftig, ideal für einen schnellen Koffeinschub.",4,Coffee
+Nespresso Ristretto,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Nespresso%20Ristretto.png,"Starker und vollmundiger Kaffee, perfekt für kurze, intensive Genussmomente, beliebt bei Kaffeekennern.",5,Coffee
