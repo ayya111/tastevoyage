@@ -27,7 +27,7 @@ Mezzo Mix,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bil
 Club Mate,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Club%20Mate.png,"Koffeinhaltiges Erfrischungsgetränk, herb und erfrischend, bei Technikern beliebt.",4,Soft Drink
 Almdudler,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Almdudler.png,"Österreichisches Kräuterlimonadegetränk, süß und würzig, traditionell.",5,Soft Drink
 Swiss Mountain Spring Ginger Beer,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Swiss%20Mountain%20Spring%20Ginger%20Beer.png,"Schweizer Ingwergetränk, scharf und erfrischend, beliebt bei Kennern.",5,Soft Drink
-Rugenbräu,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Rugenbrau.png,"Schweizer Bier, malzig und vollmundig, regional geschätzt.",3,Alcoholic
+Rugenbräu,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Rugenbraeu.png,"Schweizer Bier, malzig und vollmundig, regional geschätzt.",3,Alcoholic
 Calanda Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Calanda%20Bier.png,"Schweizer Bier, erfrischend und hopfig, in Graubünden beliebt.",4,Alcoholic
 Chopfab Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Chopfab%20Bier.png,"Schweizer Craft-Bier, reichhaltig und aromatisch, bei Bierliebhabern bekannt.",5,Alcoholic
 Bündner Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Buendner%20Bier.png,"Regionalbier aus Graubünden, würzig und charaktervoll.",4,Alcoholic
@@ -41,3 +41,6 @@ Actimel,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilde
 Emmi Caffè Latte,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Emmi%20Caffe%CC%80%20Latte.png,"Schweizer Kaffeegetränk, cremig und stark, beliebt bei Pendlern.",5,Coffee
 Sankt Galler Schützengarten Bier,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Sankt%20Galler%20Schuetzengarten%20Bier.png,"Schweizer Bier, traditionell und vollmundig, bekannt in St. Gallen.",4,Alcoholic
 Calanda Radler,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Calanda%20Radler.png,"Biermischgetränk, leicht und fruchtig, perfekt für den Sommer.",5,Alcoholic
+Starbucks House Blend,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Starbucks%20House%20Blend.png,"Aromatischer Kaffee mit ausgewogenem Geschmack und nussigen Noten, beliebt für den täglichen Genuss.",5,Coffee
+Lavazza Espresso,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Lavazza%20Espresso.png,"Intensiver italienischer Espresso, vollmundig und kräftig, ideal für einen schnellen Koffeinschub.",4,Coffee
+Nespresso Ristretto,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Nespresso%20Ristretto.png,"Starker und vollmundiger Kaffee, perfekt für kurze, intensive Genussmomente, beliebt bei Kaffeekennern.",5,Coffee
