@@ -1,45 +1,45 @@
 Name,Image URL,Description,Rating
 Appenzeller Alpenbitter,https://raw.githubusercontent.com/ayya111/tastevoyage/main/produkt_bilder/Appenzeller_Alpenbitter.png,"Appenzeller Alpenbitter ist ein Schweizer Kräuterlikör, hergestellt von der Appenzeller Alpenbitter AG.",4
-Ovomaltine,https://example.com/ovomaltine.jpg,"Ovomaltine ist ein Malzgetränk, hergestellt 
-Rivella Blau,https://example.com/rivella_blau.jpg,Rivella Blau ist eine leichtere Variante des Schweizer Rivella Original.,3
-Orangina,https://example.com/orangina.jpg,"Orangina ist ein kohlensäurehaltiges Orangengetränk, hergestellt von Schweppes.",4
-San Pellegrino,https://example.com/san_pellegrino.jpg,San Pellegrino ist ein italienisches Mineralwasser.,5
+Ovomaltine,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Ovomaltine.png,"Ovomaltine ist ein Malzgetränk, hergestellt 
+Rivella Blau,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Rivella%20Blau.png,Rivella Blau ist eine leichtere Variante des Schweizer Rivella Original.,3
+Orangina,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Orangina.png,"Orangina ist ein kohlensäurehaltiges Orangengetränk, hergestellt von Schweppes.",4
+San Pellegrino,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/San%20Pellegrino.png,San Pellegrino ist ein italienisches Mineralwasser.,5
 Evian,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Evian.png,Evian ist ein französisches Mineralwasser.,4
-Lipton Ice Tea,https://example.com/lipton_ice_tea.jpg,"Lipton Ice Tea ist ein Eisteegetränk, hergestellt von Lipton.",3
+Lipton Ice Tea,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Lipton%20Ice%20Tea.png,"Lipton Ice Tea ist ein Eisteegetränk, hergestellt von Lipton.",3
 Coca-Cola,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Coca-Cola.png,"Coca-Cola ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von Coca-Cola.",5
 Pepsi,https://example.com/pepsi.jpg,"Pepsi ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von PepsiCo.",4
 Fanta,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Fanta.png,"Fanta ist ein kohlensäurehaltiges Orangengetränk, hergestellt von Coca-Cola.",3
 Sprite,https://example.com/sprite.jpg,"Sprite ist ein kohlensäurehaltiges Zitronen-Limettengetränk, hergestellt von Coca-Cola.",4
-Mountain Dew,https://example.com/mountain_dew.jpg,"Mountain Dew ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von PepsiCo.",5
+Mountain Dew,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Mountain%20Dew.png,"Mountain Dew ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von PepsiCo.",5
 Dr Pepper,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Dr%20Pepper.png,"Dr Pepper ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von Keurig Dr Pepper.",4
-Red Bull,https://example.com/red_bull.jpg,"Red Bull ist ein Energy-Drink, hergestellt von Red Bull GmbH.",5
-Monster Energy,https://example.com/monster_energy.jpg,"Monster Energy ist ein Energy-Drink, hergestellt von Monster Beverage.",4
+Red Bull,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Red%20Bull.png,"Red Bull ist ein Energy-Drink, hergestellt von Red Bull GmbH.",5
+Monster Energy,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Monster%20Energy.png,"Monster Energy ist ein Energy-Drink, hergestellt von Monster Beverage.",4
 Capri-Sun,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Capri-Sun.png,"Capri-Sun ist ein Fruchtsaftgetränk, hergestellt von Capri-Sun AG.",3
 Vittel,https://example.com/vittel.jpg,Vittel ist ein französisches Mineralwasser.,4
 Volvic,https://example.com/volvic.jpg,Volvic ist ein französisches Mineralwasser.,4
-Nestea,https://example.com/nestea.jpg,"Nestea ist ein Eisteegetränk, erhältlich von Nestlé.",3
-Rivella Rot,https://example.com/rivella_rot.jpg,Rivella Rot ist das originale Schweizer Rivella.,5
-Henniez,https://example.com/henniez.jpg,"Henniez ist ein Schweizer Mineralwasser, abgefüllt von Henniez.",4
-Ricola Kräutertee,https://example.com/ricola_kraeutertee.jpg,"Ricola Kräutertee ist ein Schweizer Kräutertee, hergestellt von Ricola.",4
+Nestea,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Nestea.png,"Nestea ist ein Eisteegetränk, erhältlich von Nestlé.",3
+Rivella Rot,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Rivella%20Rot.png,Rivella Rot ist das originale Schweizer Rivella.,5
+Henniez,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Henniez.png,"Henniez ist ein Schweizer Mineralwasser, abgefüllt von Henniez.",4
+Ricola Kräutertee,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Ricola%20Kra%CC%88utertee.png,"Ricola Kräutertee ist ein Schweizer Kräutertee, hergestellt von Ricola.",4
 Valser Wasser,https://example.com/valser_wasser.jpg,"Valser Wasser ist ein Schweizer Mineralwasser, abgefüllt von Valser.",4
-Migros Ice Tea,https://example.com/migros_ice_tea.jpg,"Migros Ice Tea ist ein Eisteegetränk, erhältlich bei Migros.",3
+Migros Ice Tea,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Migros%20Ice%20Tea.png,"Migros Ice Tea ist ein Eisteegetränk, erhältlich bei Migros.",3
 Sinalco,https://example.com/sinalco.jpg,"Sinalco ist ein kohlensäurehaltiges Erfrischungsgetränk, hergestellt von Sinalco.",3
-Mezzo Mix,https://example.com/mezzo_mix.jpg,"Mezzo Mix ist eine Mischung aus Cola und Orangenlimonade, hergestellt von Coca-Cola.",3
+Mezzo Mix,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Mezzo%20Mix.png,"Mezzo Mix ist eine Mischung aus Cola und Orangenlimonade, hergestellt von Coca-Cola.",3
 Club Mate,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Club%20Mate.png,"Club Mate ist ein koffeinhaltiges Erfrischungsgetränk, hergestellt von Brauerei Loscher.",4
 Almdudler,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Almdudler.png,Almdudler ist ein österreichisches Kräuterlimonadegetränk.,5
 Swiss Mountain Spring Ginger Beer,https://example.com/swiss_mountain_spring_ginger_beer.jpg,Swiss Mountain Spring Ginger Beer ist ein Schweizer Ingwergetränk.,5
-Rugenbräu,https://example.com/rugenbraeu.jpg,"Rugenbräu ist ein Bier, hergestellt von der Rugenbräu AG.",3
+Rugenbräu,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Rugenbra%CC%88u.png,"Rugenbräu ist ein Bier, hergestellt von der Rugenbräu AG.",3
 Calanda Bier,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Calanda%20Bier.png,"Calanda Bier ist ein Bier, hergestellt von Calanda.",4
 Chopfab Bier,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Chopfab%20Bier.png,Chopfab Bier ist ein Schweizer Craft-Bier.,5
 Bündner Bier,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Bu%CC%88ndner%20Bier.png,Bündner Bier ist ein regionales Bier aus Graubünden.,4
 Quöllfrisch,https://example.com/quoellfrisch.jpg,"Quöllfrisch ist ein Bier, hergestellt von der Brauerei Locher.",3
-Möhl Saft,https://example.com/moehl_saft.jpg,"Möhl Saft ist ein Schweizer Fruchtsaft, hergestellt von Möhl.",5
-Michel Fruchtsaft,https://example.com/michel_fruchtsaft.jpg,"Michel Fruchtsaft ist ein Schweizer Fruchtsaft, hergestellt von Michel.",4
+Möhl Saft,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Mo%CC%88hl%20Saft.png,"Möhl Saft ist ein Schweizer Fruchtsaft, hergestellt von Möhl.",5
+Michel Fruchtsaft,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Michel%20Fruchtsaft.png,"Michel Fruchtsaft ist ein Schweizer Fruchtsaft, hergestellt von Michel.",4
 Bionade,https://example.com/bionade.jpg,"Bionade ist ein deutsches Erfrischungsgetränk, hergestellt von Bionade GmbH.",3
-Ramseier Suure Most,https://example.com/ramseier_suure_most.jpg,"Ramseier Suure Most ist ein Schweizer Apfelwein, hergestellt von Ramseier.",4
-Rivella Grün,https://example.com/rivella_gruen.jpg,"Rivella Grün ist eine Variante des Schweizer Rivella, hergestellt von Rivella.",5
-Lipz,https://example.com/lipz.jpg,"Lipz ist ein kohlensäurehaltiges Erfrischungsgetränk, hergestellt von Lipz.",3
+Ramseier Suure Most,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Ramseier%20Suure%20Most.png,"Ramseier Suure Most ist ein Schweizer Apfelwein, hergestellt von Ramseier.",4
+Rivella Grün,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Rivella%20Gru%CC%88n.png,"Rivella Grün ist eine Variante des Schweizer Rivella, hergestellt von Rivella.",5
+Lipz,https://github.com/ayya111/tastevoyage/blob/0e3e3657688502e2e5ef693665dc396859087ff1/produkt_bilder/Lipz.png,"Lipz ist ein kohlensäurehaltiges Erfrischungsgetränk, hergestellt von Lipz.",3
 Actimel,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Actimel.png,"Actimel ist ein probiotisches Getränk, hergestellt von Danone.",4
 Emmi Caffè Latte,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Emmi%20Caffe%CC%80%20Latte.png,"Emmi Caffè Latte ist ein Schweizer Kaffeegetränk, hergestellt von Emmi.",5
-Sankt Galler Schützengarten Bier,https://example.com/sankt_galler_schuetzengarten_bier.jpg,"Sankt Galler Schützengarten Bier ist ein Bier, hergestellt von Schützengarten.",4
+Sankt Galler Schützengarten Bier,https://github.com/ayya111/tastevoyage/blob/d68f51cedf905d754aaf5b72993981cc5dce9007/produkt_bilder/Sankt%20Galler%20Schu%CC%88tzengarten%20Bier.png,"Sankt Galler Schützengarten Bier ist ein Bier, hergestellt von Schützengarten.",4
 Calanda Radler,https://github.com/ayya111/tastevoyage/blob/68f185df439c50de85e038bfc6910e282eb37c79/produkt_bilder/Calanda%20Radler.webp,"Calanda Radler ist ein Biermischgetränk, hergestellt von Calanda.",5
