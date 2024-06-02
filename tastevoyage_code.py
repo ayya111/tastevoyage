@@ -144,7 +144,7 @@ def main_app():
     elif choice == "Hauptmenü":
         main_menu(filtered_df, user_favoriten, user_edits, user_added_beverages)
     elif choice == "Favoriten":
-        favorites_page(user_favoriten, user_edits, user_added_beverages)
+        favorites_page(user_favoriten, user_edits)
     elif choice == "Getränk hinzufügen":
         add_beverage_form(user_added_beverages)
     elif choice == "Statistiken":
@@ -158,7 +158,7 @@ def start_page():
 
         #### Hauptfunktionen:
         - 🗂 Hauptmenü: Durchstöbere eine umfassende Liste von Getränken, von denen einige bereits vorgegeben sind, um dir den Einstieg zu erleichtern.
-        - ❤  Favoriten: Verwalte und greife einfach auf deine Lieblingsgetränke zu, ohne das Hauptmenü durchsuchen zu müssen.
+        - ⭐  Favoriten: Verwalte und greife einfach auf deine Lieblingsgetränke zu, ohne das Hauptmenü durchsuchen zu müssen.
         - ➕ Getränk hinzufügen: Füge neue Getränke zur Datenbank hinzu, einschließlich Bildern, um die visuelle Attraktivität und Wiedererkennung jedes Getränks zu erhöhen.
         - 📊 Statistiken: Sieh dir detaillierte statistische Auswertungen der Getränkebewertungen an, kategorisiert und in Balkendiagrammen dargestellt, die die am besten bewerteten Getränke in jeder Kategorie hervorheben.
         - 🔒 Benutzerspezifische Daten: Alle Daten werden auf GitHub gespeichert, wodurch jeder Benutzer eine personalisierte Erfahrung mit sicherem Zugriff auf seine Informationen beim Einloggen hat.
@@ -178,20 +178,20 @@ def main_menu(filtered_df, user_favoriten, user_edits, user_added_beverages):
                     with cols[idx]:
                         show_item(combined_df.iloc[i + idx], i + idx, combined_df, user_favoriten=user_favoriten, user_edits=user_edits, user_added_beverages=user_added_beverages, show_favorite_action=True)
 
-def favorites_page(user_favoriten, user_edits, user_added_beverages):
+def favorites_page(user_favoriten, user_edits):
     st.title("Favoriten ⭐ ")
     st.markdown("Verwalte und greife einfach auf deine Lieblingsgetränke zu.")
-    combined_favoriten = {**user_favoriten, **user_added_beverages}
-    if combined_favoriten:
-        favoriten_df = pd.DataFrame(combined_favoriten).T
+    if user_favoriten:
+        favoriten_df = pd.DataFrame(user_favoriten).T
         for i in range(0, len(favoriten_df), 2):
             cols = st.columns(2)
             for idx in range(2):
                 if i + idx < len(favoriten_df):
                     with cols[idx]:
-                        show_item(favoriten_df.iloc[i + idx], i + idx, favoriten_df, user_edits=user_edits, user_added_beverages=user_added_beverages, show_favorite_action=False)
+                        show_item(favoriten_df.iloc[i + idx], i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
 
 def show_item(item, index, df, user_favoriten=None, user_edits=None, user_added_beverages=None, show_favorite_action=True):
+    st.markdown(f"###  {item['Name']}")
     try:
         if 'Image URL' in item and item['Image URL']:
             response = requests.get(item['Image URL'])
