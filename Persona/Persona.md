@@ -22,9 +22,9 @@ Foodies und Gourmet-Liebhaber, unabhängig von ihrer ethnischen Gruppe, Geschlec
 - Schwierigkeiten seine Vorlieben bei der grossen Auswahl im Kopf zu behalten
 - Das Bedürfnis nach einfachen und effektiven Möglichkeiten, Essenserlebnisse zu verwalten und zu teilen.
 
- # Wireframs:
+ ## Wireframs:
 
 ![Wireframe1](https://github.com/ayya111/tastevoyage/assets/162123470/fc8fc5af-19c7-4f50-81d6-e8e7e0242f45)
-![Wireframe1](https://github.com/ayya111/tastevoyage/assets/162123470/9a0d3f34-8b17-4915-bd34-44ba43c322c9)
+![Wireframe2](https://github.com/ayya111/tastevoyage/assets/162123470/6fba0fd6-8c4d-49ac-a268-1f03ab56cb22)
 
 
