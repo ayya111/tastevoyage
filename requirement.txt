@@ -1,6 +1,5 @@
 streamlit
 pandas
-bcrypt
 github-contents
 pillow
 requests
