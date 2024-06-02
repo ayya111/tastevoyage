@@ -1,6 +1,7 @@
-bcrypt
-pandas
-matplotlib
 streamlit
-pillow
+pandas
+bcrypt
 github-contents
+pillow
+requests
+matplotlib
