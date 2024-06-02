@@ -1,4 +1,3 @@
-bcrypt
 pandas
 matplotlib
 streamlit
