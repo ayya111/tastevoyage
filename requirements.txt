@@ -1,6 +1,0 @@
-bcrypt
-pandas
-matplotlib
-streamlit
-pillow
-github-contents
