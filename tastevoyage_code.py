@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import bcrypt
 from github import Github
 import io
 from PIL import Image, UnidentifiedImageError
