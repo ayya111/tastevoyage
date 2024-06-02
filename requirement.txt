@@ -1,1 +1,6 @@
+streamlit
+pandas
+bcrypt
+Pillow
+PyGithub
 pip install bcrypt
