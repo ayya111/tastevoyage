@@ -3,4 +3,4 @@ pandas
 bcrypt
 Pillow
 PyGithub
-
+matplotlib
