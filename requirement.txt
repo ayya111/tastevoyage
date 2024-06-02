@@ -1,7 +1,2 @@
-streamlit
-pandas
 bcrypt
-github
-pillow
-requests
-matplotlib
+
