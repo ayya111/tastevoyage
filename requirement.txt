@@ -1,6 +1,7 @@
 streamlit
 pandas
-github-contents
+bcrypt
+github
 pillow
 requests
 matplotlib
