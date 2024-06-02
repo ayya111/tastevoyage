@@ -1,4 +1,4 @@
-# Version 1.0:
+# Version 1:
 Mit dem "Neues Produkt"-Button können neue Items hinzugefügt werden mit den Kriterien: Kategorie, Name, Bewertung von 1 bis 10 und eigenen Notizen.
 Button zum Bearbeiten und Löschen der Items.
 Sidebar mit den Kategorien: Home, Favoriten und Need to try.
