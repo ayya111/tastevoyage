@@ -188,7 +188,7 @@ def favorites_page(user_favoriten, user_edits):
             for idx in range(2):
                 if i + idx < len(favoriten_df):
                     with cols[idx]:
-                        show_item(favoriten_df.iloc[i + idx], i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
+                        show_item(favoriten_df.iloc(i + idx), i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
 
 def show_item(item, index, df, user_favoriten=None, user_edits=None, user_added_beverages=None, show_favorite_action=True):
     st.markdown(f"###  {item['Name']}")
@@ -277,6 +277,8 @@ def statistics_page(df, user_added_beverages):
 
     category_avg_ratings = {}
 
+    col1, col2 = st.columns(2)
+
     for i, category in enumerate(categories):
         category_df = combined_df[combined_df['Category'] == category]
         if category_df.empty:
@@ -292,9 +294,6 @@ def statistics_page(df, user_added_beverages):
             avg_rating_series = pd.Series(avg_rating).sort_values()
             category_avg_ratings[category] = avg_rating_series.mean()
             color = colors[i % len(colors)]
-            
-            if i % 2 == 0:
-                col1, col2 = st.columns(2)
             
             fig, ax = plt.subplots(figsize=(6, 4))
             avg_rating_series.plot(kind='barh', ax=ax, color=color)
@@ -399,3 +398,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
