@@ -195,7 +195,7 @@ def favorites_page(user_favoriten, user_edits):
             for idx in range(2):
                 if i + idx < len(favoriten_df):
                     with cols[idx]:
-                        show_item(favoriten_df.iloc[i + idx], i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
+                        show_item(favoriten_df.iloc(i + idx), i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
 
 def show_item(item, index, df, user_favoriten=None, user_edits=None, user_added_beverages=None, show_favorite_action=True):
     st.markdown(f"###  {item['Name']}")
