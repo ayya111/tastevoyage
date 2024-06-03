@@ -33,6 +33,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# Sidebar Dashboard button
 def sidebar_button():
     st.sidebar.markdown("""
     <style>
@@ -48,8 +49,11 @@ def sidebar_button():
     </style>
     """, unsafe_allow_html=True)
     if st.sidebar.button("☰ Dashboard"):
-        st.session_state['menu_open'] = not st.session_state.get('menu_open', False)
         st.experimental_rerun()
+
+# Add the sidebar button on every page after login
+if 'authentication' in st.session_state and st.session_state['authentication']:
+    sidebar_button()
 
 def read_github_file(file_path):
     try:
@@ -142,7 +146,6 @@ def save_image_to_github(image, name):
     return ""
 
 def main_app():
-    sidebar_button()
     if 'menu_choice' not in st.session_state:
         st.session_state['menu_choice'] = 'Start'
 
