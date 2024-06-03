@@ -93,12 +93,11 @@ def register_user(username, password, benutzer_df):
     return False
 
 def save_user_data(username, benutzer_df):
-    user_info = benutzer_df[benutzer_df['username'] == username].iloc[0]
     favorits = json.dumps(st.session_state.get('favorits', {}))
     edits = json.dumps(st.session_state.get('edits', {}))
     statistik = json.dumps(st.session_state.get('statistik', {}))
     added_beverages = json.dumps(st.session_state.get('added_beverages', {}))
-    
+
     benutzer_df.loc[benutzer_df['username'] == username, 'favorits'] = favorits
     benutzer_df.loc[benutzer_df['username'] == username, 'edits'] = edits
     benutzer_df.loc[benutzer_df['username'] == username, 'statistik'] = statistik
