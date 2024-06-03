@@ -33,28 +33,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Sidebar Dashboard button
-def sidebar_button():
-    st.sidebar.markdown("""
-    <style>
-    .css-1y4p8pa {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .css-1y4p8pa > button {
-        font-size: 20px;
-        padding: 10px 20px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    if st.sidebar.button("☰ Dashboard"):
-        st.experimental_rerun()
-
-# Add the sidebar button on every page after login
-if 'authentication' in st.session_state and st.session_state['authentication']:
-    sidebar_button()
-
 def read_github_file(file_path):
     try:
         file_content = repo.get_contents(file_path)
