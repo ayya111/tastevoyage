@@ -33,28 +33,23 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Add the sidebar button for dashboard on every page after login
 def sidebar_button():
-    if 'authentication' in st.session_state and st.session_state['authentication']:
-        st.sidebar.markdown("""
-        <style>
-        .css-1y4p8pa {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .css-1y4p8pa > button {
-            font-size: 20px;
-            padding: 10px 20px;
-        }
-        </style>
-        """, unsafe_allow_html=True)
-        if st.sidebar.button("☰ Dashboard"):
-            st.experimental_rerun()
-
-# Ensure the sidebar button is called only after login
-if 'authentication' in st.session_state and st.session_state['authentication']:
-    sidebar_button()
+    st.sidebar.markdown("""
+    <style>
+    .css-1y4p8pa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .css-1y4p8pa > button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    if st.sidebar.button("☰ Dashboard"):
+        st.session_state['menu_open'] = not st.session_state.get('menu_open', False)
+        st.experimental_rerun()
 
 def read_github_file(file_path):
     try:
@@ -147,6 +142,7 @@ def save_image_to_github(image, name):
     return ""
 
 def main_app():
+    sidebar_button()
     if 'menu_choice' not in st.session_state:
         st.session_state['menu_choice'] = 'Start'
 
