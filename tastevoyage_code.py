@@ -28,10 +28,33 @@ st.markdown("""
         background-color: #f5f5f5;
     }
     .sidebar .sidebar-content {
-        background-color: #f0e0d6;
+        background-color: #FAD6A5;
     }
     </style>
     """, unsafe_allow_html=True)
+
+# Add the sidebar button for dashboard on every page after login
+def sidebar_button():
+    if 'authentication' in st.session_state and st.session_state['authentication']:
+        st.sidebar.markdown("""
+        <style>
+        .css-1y4p8pa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .css-1y4p8pa > button {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+        if st.sidebar.button("☰ Dashboard"):
+            st.experimental_rerun()
+
+# Ensure the sidebar button is called only after login
+if 'authentication' in st.session_state and st.session_state['authentication']:
+    sidebar_button()
 
 def read_github_file(file_path):
     try:
@@ -51,6 +74,14 @@ def write_github_file(file_path, df, commit_message="update file"):
             repo.create_file(file_path, commit_message, df.to_csv(index=False))
         except Exception as e:
             st.error(f"Error writing file to GitHub: {e}")
+
+def delete_image_from_github(image_url):
+    try:
+        image_filename = image_url.split('/')[-1]
+        file_content = repo.get_contents(f"images/{image_filename}")
+        repo.delete_file(f"images/{image_filename}", "Delete image", file_content.sha)
+    except Exception as e:
+        st.error(f"Error deleting image from GitHub: {e}")
 
 # Load or initialize the user data
 benutzer_df = read_github_file(BENUTZER_DATEN_PFAD)
@@ -188,7 +219,7 @@ def favorites_page(user_favoriten, user_edits):
             for idx in range(2):
                 if i + idx < len(favoriten_df):
                     with cols[idx]:
-                        show_item(favoriten_df.iloc(i + idx), i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
+                        show_item(favoriten_df.iloc[i + idx], i + idx, favoriten_df, user_edits=user_edits, show_favorite_action=False)
 
 def show_item(item, index, df, user_favoriten=None, user_edits=None, user_added_beverages=None, show_favorite_action=True):
     st.markdown(f"###  {item['Name']}")
@@ -247,6 +278,7 @@ def show_item(item, index, df, user_favoriten=None, user_edits=None, user_added_
             st.warning(f"{item['Name']} ist bereits in den Favoriten!")
     elif option == "Dieses Getränk löschen" and user_added_beverages and item['Name'] in user_added_beverages:
         # Remove from added beverages
+        image_url = user_added_beverages[item['Name']].get('Image URL', '')
         del user_added_beverages[item['Name']]
         # Update session state
         st.session_state['added_beverages'] = user_added_beverages
@@ -258,6 +290,9 @@ def show_item(item, index, df, user_favoriten=None, user_edits=None, user_added_
             del user_edits[item['Name']]
         # Save updated user data
         save_user_data(st.session_state['username'], benutzer_df)
+        # Delete image from GitHub
+        if image_url:
+            delete_image_from_github(image_url)
         st.success(f"{item['Name']} erfolgreich gelöscht!")
         st.experimental_rerun()
 
@@ -398,4 +433,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
