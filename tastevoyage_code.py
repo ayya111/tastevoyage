@@ -33,11 +33,11 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Helper functions for GitHub file operations
 def read_github_file(file_path):
     try:
         file_content = repo.get_contents(file_path)
-        return pd.read_csv(io.StringIO(file_content.decoded_content.decode()))
+        df = pd.read_csv(io.StringIO(file_content.decoded_content.decode()))
+        return df
     except Exception as e:
         st.error(f"Error reading file from GitHub: {e}")
         return pd.DataFrame()
@@ -60,7 +60,17 @@ def delete_image_from_github(image_url):
     except Exception as e:
         st.error(f"Error deleting image from GitHub: {e}")
 
-# User data functions
+# Load or initialize the user data
+benutzer_df = read_github_file(BENUTZER_DATEN_PFAD)
+if benutzer_df.empty:
+    benutzer_df = pd.DataFrame(columns=['username', 'password', 'Category', 'favorits', 'edits', 'statistik', 'added_beverages'])
+benutzer_df = benutzer_df.fillna({'favorits': '{}', 'edits': '{}', 'statistik': '{}', 'added_beverages': '{}'})
+
+# Load the main data file
+df = read_github_file(DATA_FILE_MAIN)
+if df.empty:
+    df = pd.DataFrame(columns=['Name', 'Image URL', 'Description', 'Category'])
+
 def hash_password(password):
     return bcrypt.hashpw(password.encode('utf8'), bcrypt.gensalt()).decode('utf8')
 
@@ -101,7 +111,6 @@ def load_user_data(username, benutzer_df):
     st.session_state['statistik'] = json.loads(user_info['statistik'] if pd.notna(user_info['statistik']) else '{}')
     st.session_state['added_beverages'] = json.loads(user_info['added_beverages'] if pd.notna(user_info['added_beverages']) else '{}')
 
-# Main data functions
 def save_or_update(df, path=DATA_FILE_MAIN):
     write_github_file(path, df)
 
@@ -109,14 +118,10 @@ def save_image_to_github(image, name):
     if image is not None:
         image_filename = f"{name}_{image.name}"
         content = image.read()
-        try:
-            repo.create_file(f"images/{image_filename}", f"Upload {image_filename}", content)
-        except Exception as e:
-            st.error(f"Error uploading image to GitHub: {e}")
+        repo.create_file(f"images/{image_filename}", f"Upload {image_filename}", content)
         return f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/main/images/{image_filename}"
     return ""
 
-# UI functions
 def main_app():
     if 'menu_choice' not in st.session_state:
         st.session_state['menu_choice'] = 'Start'
@@ -137,6 +142,7 @@ def main_app():
     user_edits = st.session_state.get('edits', {})
     user_added_beverages = st.session_state.get('added_beverages', {})
 
+    # Filter user added beverages for search query
     if search_query:
         user_added_beverages = {k: v for k, v in user_added_beverages.items() if search_query.lower() in v['Name'].lower()}
 
@@ -289,7 +295,11 @@ def statistics_page(df, user_added_beverages):
         if category_df.empty:
             continue
         
-        avg_rating = {item: st.session_state['edits'][item] for item in category_df['Name'] if item in st.session_state['edits']}
+        # Calculate average rating from user_edits
+        avg_rating = {}
+        for item in category_df['Name']:
+            if item in st.session_state['edits']:
+                avg_rating[item] = st.session_state['edits'][item]
         
         if avg_rating:
             avg_rating_series = pd.Series(avg_rating).sort_values()
