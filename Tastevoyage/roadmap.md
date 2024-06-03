@@ -81,7 +81,7 @@
 - Farbschema und UI-Komponenten angepasst.
 
 ## Version 19: Test
-- Zum Testen den Streamlint link den Bekannten gegeben.
+- Zum Testen den Streamlit link den Bekannten gegeben.
 
 ## Version 20: Letzte Fehler beheben
 - Fehler welches von Bekannten gemeldet wurden behoben.
