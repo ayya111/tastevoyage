@@ -186,7 +186,7 @@ def main_menu(filtered_df, user_favoriten, user_edits, user_added_beverages):
                         show_item(combined_df.iloc[i + idx], i + idx, combined_df, user_favoriten=user_favoriten, user_edits=user_edits, user_added_beverages=user_added_beverages, show_favorite_action=True)
 
 def favorites_page(user_favoriten, user_edits):
-    st.title("Favoriten ⭐ ")
+    st.title("Favoriten ⭐")
     st.markdown("Verwalte und greife einfach auf deine Lieblingsgetränke zu.")
     if user_favoriten:
         favoriten_df = pd.DataFrame(user_favoriten).T
